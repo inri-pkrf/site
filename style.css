@@ -1,0 +1,159 @@
+html, body {
+    font-family: "Karantina", system-ui;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    color: rgb(0, 0, 0);
+    background-image: url(orangeBackground.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.heading{
+ text-align: center;
+ font-size: 8vh;
+ background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-top: 40vw;
+    font-size: 15vw;
+    height: 15vw;
+    width: 100vw;
+    padding-top: 8vw;
+    min-height: 11vw;
+    max-height: 11vw;
+    position: absolute;
+}
+/* CSS classes for positioning and sizing images */
+.top-right {
+    position: absolute;
+    display: none;
+    top: 3vh;
+    right: 4vw;
+    width: 20%; /* 20% of the viewport width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-width: 100vw; /* Maximum width of 100% of the viewport width */
+    max-height: 50vh; /* Maximum height of 50% of the viewport height */
+}
+
+.top-left {
+    position: absolute;
+    top: 3vh;
+    left:32vw;
+    width: 40%; /* 20% of the viewport width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-width: 100vw; /* Maximum width of 100% of the viewport width */
+    max-height: 50vh; /* Maximum height of 50% of the viewport height */
+}
+
+.hand {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 11vh;
+    max-width: 30%; /* Ensure image doesn't exceed viewport width */
+    max-height: 20vh; /* Ensure image doesn't exceed 80% of the viewport height */
+}
+.hand-text {
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 9vh;
+    font-size: 5vw;
+}
+
+
+@keyframes ani {
+    0%   {  top:0vh;}
+    50%  {  top:50vh;}
+    100% { top:-100vh;}
+  }
+
+  .lesson-menu{
+   visibility: hidden;
+   background-color: #f19e36;
+   overflow: scroll;
+  }
+
+.title1 {
+    text-align: center;
+    margin-top: -2vw;
+    position: relative;
+    width: 80%;
+    height: 15vh;
+    max-width: 100vw;
+    max-height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: 2vw;
+}
+
+  .title {
+    text-align: center;
+    margin-top: -2vw;
+    position: relative;
+    width: 80%;
+    height: 28vh;
+    max-width: 100vw;
+    max-height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11.5vw;
+}
+
+.class-screen{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #f19e36;
+    overflow: scroll;
+    position: absolute;
+}
+
+
+.info-div {
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    overflow: auto; /* Add overflow:auto to allow scrolling if content exceeds dimensions */
+    border-radius: 10%; /* Rounded corners using percentage */
+    padding: 3vw; /* Added padding */
+    /* text-align: center; Center the text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change the font */
+    /* direction: rtl; Set text direction to right-to-left (Hebrew) */
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    left: 50vw;
+    font-weight: 3vw;
+}
+
+
+.arrow{
+    transform: rotateY(180deg);
+    position: fixed;
+    bottom: 1vh;
+    right: 8vw;
+    width: 20vw;
+    height: auto;
+    max-width: 20vh;
+    z-index: 9999;
+}
