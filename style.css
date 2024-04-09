@@ -141,7 +141,7 @@ html, body {
     /* direction: rtl; Set text direction to right-to-left (Hebrew) */
     font-size: 20px;
     position: absolute;
-    top: 52vh;
+    top: 50vh;
     left: 50vw;
     font-weight: 3vw;
 }
