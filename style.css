@@ -149,8 +149,6 @@ html, body {
 
 .arrow{
     transform: rotateY(180deg);
-    position: fixed;
-    bottom: 1vh;
     right: 8vw;
     width: 20vw;
     height: auto;
