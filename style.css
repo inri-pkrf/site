@@ -185,6 +185,13 @@ html, body {
         display: block; /* Make the image a block element */
         margin: 0 auto; /* Center the image horizontally */
         padding-top: 12vw; /* Adjust as needed for vertical spacing */
-   
+        
+}
 
+.meet7{
+    max-width: 50%; /* Ensure the image doesn't exceed the width of its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    padding-top: 12vw; /* Adjust as needed for vertical spacing */
 }
