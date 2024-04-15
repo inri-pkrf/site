@@ -163,6 +163,7 @@ html, body {
     height: auto;
     max-width: 20vh;
     z-index: 9999;
+    padding-top: 1.5vh;
     position: absolute;
 }
 
