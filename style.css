@@ -156,6 +156,17 @@ html, body {
     z-index: 9999;
 }
 
+.arrow2{
+    transform: rotateY(180deg);
+    right: 8vw;
+    width: 20vw;
+    height: auto;
+    max-width: 20vh;
+    z-index: 9999;
+    position: absolute;
+}
+
+
 .file{
         width: 15vw; /* Set the width of the image relative to viewport width */
         height: auto; /* Automatically adjust the height to maintain aspect ratio */
@@ -164,4 +175,14 @@ html, body {
         margin: 0 auto; /* Center the image horizontally */
         padding: 4vw;
       
+}
+
+.meet{
+    width: 72vw; /* Set the width of the image relative to viewport width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    position: relative; /* Set position to relative for absolute positioning */
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    padding-top: 12vw;
+  
 }
