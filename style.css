@@ -164,7 +164,6 @@ html, body {
     max-width: 20vh;
     z-index: 9999;
     padding-top: 1.5vh;
-    position: absolute;
 }
 
 
@@ -184,14 +183,7 @@ html, body {
         height: auto; /* Automatically adjust the height to maintain aspect ratio */
         display: block; /* Make the image a block element */
         margin: 0 auto; /* Center the image horizontally */
-        padding-top: 12vw; /* Adjust as needed for vertical spacing */
+        padding-top: 6vw; /* Adjust as needed for vertical spacing */
         
 }
 
-.meet7{
-    max-width: 50%; /* Ensure the image doesn't exceed the width of its container */
-    height: auto; /* Automatically adjust the height to maintain aspect ratio */
-    display: block; /* Make the image a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    padding-top: 12vw; /* Adjust as needed for vertical spacing */
-}
