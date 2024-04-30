@@ -203,7 +203,7 @@ html, body {
 /* Adjustments for mobile devices */
 @media screen and (max-width: 600px) {
     .contacts, .contacts1 {
-        width: 10vw;
+        width: 4vw;
         height: auto;
     }
 }
