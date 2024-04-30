@@ -110,12 +110,21 @@ html, body {
     text-align: center;
 }
 
+
 .image-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 11.5vw;
+}
+
+.image-text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7.5vw;
 }
 
 .class-screen{
@@ -177,6 +186,24 @@ html, body {
       
 }
 
+.contacts{
+    width: 15vw; 
+    height: auto; 
+    position: absolute; 
+    left: 15vw;
+    top: 5vh;
+    display: block; 
+    margin: 0 auto; 
+}
+.contacts1{
+    width: 15vw; 
+    height: auto; 
+    position: absolute; 
+    right: 15vw;
+    top: 5vh;
+    display: block; 
+    margin: 0 auto; 
+}
 .meet{
    
         max-width: 65%; /* Ensure the image doesn't exceed the width of its container */
