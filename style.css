@@ -191,7 +191,7 @@ html, body {
     top: 5vh;
     display: block;
     margin: 0 auto;
-    width: 30px; /* Adjust the width as needed */
+    width: 5vw; /* Adjust the width as needed */
     height: auto;
 }
 
@@ -200,7 +200,7 @@ html, body {
     top: 5vh;
     display: block;
     margin: 0 auto;
-    width: 30px; /* Adjust the width as needed */
+    width: 5vw; /* Adjust the width as needed */
     height: auto;
 }
 
